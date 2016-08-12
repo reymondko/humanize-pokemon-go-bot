@@ -9,11 +9,16 @@ for multiple change:
 "UseProxyUsername": null,   
 "UseProxyPassword": null  
 
-or you can use this other ips
-Jumbo Proxy Switcher 104.202.117.245 80 Transparent false Proxy from United States United States 980 99.06 Details
-Jumbo Proxy Switcher 104.202.117.151 80 Transparent false Proxy from United States United States 413 99.05 Details
-Jumbo Proxy Switcher 120.52.72.24 80 Transparent false Proxy from China China 990 99.05 Details
-Jumbo Proxy Switcher 104.202.117.199 80 Transparent false Proxy from United States United States 427 99.05 Details
-Jumbo Proxy Switcher 104.202.117.112 80 Transparent false Proxy from United States United States 599 99.04 Details
+or you can use this other ips (all port 80)
+
+104.202.117.245  
+
+104.202.117.151
+
+120.52.72.24 80
+
+104.202.117.199 
+
+104.202.117.112
 
 ip sources: http://www.xroxy.com/proxylist.htm
