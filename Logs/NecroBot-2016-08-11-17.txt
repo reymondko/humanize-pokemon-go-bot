@@ -1,0 +1,79 @@
+Initializing NecroBot logger at time 8/11/2016 5:48:17 PM...
+Initializing NecroBot logger at time 8/11/2016 5:49:36 PM...
+[17:49:39] Your IP is: 124.104.168.123
+[17:49:39] Perfect! You already have the newest Version 0.8.5
+[17:49:39] Logging in using Google
+[17:49:42] Playing as reymondko
+[17:49:43] Make sure Lat & Lng are right. Exit Program if not! Lat: 10.3009071024895 Lng: 123.962419437752
+[17:49:44] ====== DisplayHighestsCP ======
+[17:49:44] # CP 3425/3425 | (100.00% perfect)	| Lvl 39	 NAME: Dragonite 	 MOVE1: SteelWingFast        MOVE2: DragonClaw           Candy: 102
+[17:49:44] # CP 3046/3046 | (100.00% perfect)	| Lvl 39	 NAME: Snorlax   	 MOVE1: LickFast             MOVE2: HyperBeam            Candy: 679
+[17:49:44] # CP 3046/3046 | (100.00% perfect)	| Lvl 39	 NAME: Snorlax   	 MOVE1: LickFast             MOVE2: Earthquake           Candy: 679
+[17:49:44] # CP 3001/3001 | (100.00% perfect)	| Lvl 38	 NAME: Snorlax   	 MOVE1: LickFast             MOVE2: BodySlam             Candy: 679
+[17:49:44] # CP 2993/3000 | (98.22% perfect)	| Lvl 30	 NAME: Dragonite 	 MOVE1: DragonBreathFast     MOVE2: DragonPulse          Candy: 102
+[17:49:44] # CP 2800/2800 | (100.00% perfect)	| Lvl 28	 NAME: Dragonite 	 MOVE1: SteelWingFast        MOVE2: DragonPulse          Candy: 102
+[17:49:44] # CP 2796/2900 | (71.11% perfect)	| Lvl 29	 NAME: Dragonite 	 MOVE1: DragonBreathFast     MOVE2: DragonClaw           Candy: 102
+[17:49:44] # CP 2787/2900 | (68.61% perfect)	| Lvl 29	 NAME: Dragonite 	 MOVE1: DragonBreathFast     MOVE2: DragonClaw           Candy: 102
+[17:49:44] # CP 2786/3000 | (42.50% perfect)	| Lvl 30	 NAME: Dragonite 	 MOVE1: DragonBreathFast     MOVE2: DragonClaw           Candy: 102
+[17:49:44] # CP 2687/2700 | (96.17% perfect)	| Lvl 27	 NAME: Dragonite 	 MOVE1: SteelWingFast        MOVE2: HyperBeam            Candy: 102
+[17:49:44] ====== DisplayHighestsPerfect ======
+[17:49:44] # CP 1208/1208 | (100.00% perfect)	| Lvl 16	 NAME: Flareon   	 MOVE1: EmberFast            MOVE2: HeatWave             Candy: 1602
+[17:49:44] # CP  701/ 701 | (100.00% perfect)	| Lvl 08	 NAME: Snorlax   	 MOVE1: ZenHeadbuttFast      MOVE2: Earthquake           Candy: 679
+[17:49:44] # CP 1067/1067 | (100.00% perfect)	| Lvl 12	 NAME: Snorlax   	 MOVE1: ZenHeadbuttFast      MOVE2: HyperBeam            Candy: 679
+[17:49:44] # CP  137/ 137 | (100.00% perfect)	| Lvl 02	 NAME: Snorlax   	 MOVE1: ZenHeadbuttFast      MOVE2: Earthquake           Candy: 679
+[17:49:44] # CP 3001/3001 | (100.00% perfect)	| Lvl 38	 NAME: Snorlax   	 MOVE1: LickFast             MOVE2: BodySlam             Candy: 679
+[17:49:44] # CP 1373/1373 | (100.00% perfect)	| Lvl 28	 NAME: Jynx      	 MOVE1: FrostBreathFast      MOVE2: DrainingKiss         Candy: 1185
+[17:49:44] # CP 1858/1858 | (100.00% perfect)	| Lvl 25	 NAME: Charizard 	 MOVE1: EmberFast            MOVE2: FireBlast            Candy: 54
+[17:49:44] # CP 2600/2600 | (100.00% perfect)	| Lvl 26	 NAME: Dragonite 	 MOVE1: SteelWingFast        MOVE2: DragonPulse          Candy: 102
+[17:49:44] # CP 2800/2800 | (100.00% perfect)	| Lvl 28	 NAME: Dragonite 	 MOVE1: SteelWingFast        MOVE2: DragonPulse          Candy: 102
+[17:49:44] # CP  965/ 965 | (100.00% perfect)	| Lvl 12	 NAME: Vaporeon  	 MOVE1: WaterGunFast         MOVE2: AquaTail             Candy: 1602
+[17:49:44] Amount of Pokemon Seen: 145/151, Amount of Pokemon Caught: 145/151
+[17:49:44] Incubator status update: 0.84km left
+[17:49:45] Pokemon Arcanine (10023566076712970505) renamed from Arcanine to 63_Arcanine.
+[17:49:46] Pokemon Exeggutor (7880548556908901730) renamed from Exeggutor to 61_Exeggutor.
+[17:49:47] Traveling to Pokestop: Bubu Bubu Wood Art (89m) (11 seconds)
+[17:49:48] Pokemon Snorlax (1133928669233658346) renamed from Snorlax to 80_Snorlax.
+[17:49:49] Pokemon Arcanine (1192896968064713773) renamed from Arcanine to 43_Arcanine.
+[17:49:51] Pokemon Blastoise (10920758711910703613) renamed from Blastoise to 45_Blastoise.
+[17:49:52] Pokemon Arcanine (12130047440736852944) renamed from Arcanine to 69_Arcanine.
+[17:49:53] Pokemon Snorlax (7845737301718926294) renamed from Snorlax to 82_Snorlax.
+[17:49:54] Pokemon Porygon (16893868963126379331) renamed from Porygon to 91_Porygon.
+[17:49:55] Pokemon Slowbro (9194638498271495386) renamed from Slowbro to 39_Slowbro.
+[17:49:57] Pokemon Snorlax (3993351872231877139) renamed from Snorlax to 73_Snorlax.
+[17:49:57] Pokemon Gyarados (16138750182740969489) renamed from Gyarados to 76_Gyarados.
+[17:49:58] Pokemon Exeggutor (7929089757665467750) renamed from Exeggutor to 58_Exeggutor.
+[17:49:59] Pokemon Krabby (2064770233339339626) renamed from Krabby to 86_Krabby.
+[17:50:00] Pokemon Slowbro (2810860511670384697) renamed from Slowbro to 41_Slowbro.
+[17:50:00] Pokemon Golduck (14231076363328303431) renamed from Golduck to 76_Golduck.
+[17:50:02] Pokemon Dragonite (6922782965826477164) renamed from Dragonite to 88_Dragonite.
+[17:50:02] Pokemon Snorlax (11208311272928939686) renamed from Snorlax to 68_Snorlax.
+[17:50:04] Pokemon Dragonite (16337164691325634749) renamed from Dragonite to 67_Dragonite.
+[17:50:05] Pokemon Gyarados (5845018697886406615) renamed from Gyarados to 74_Gyarados.
+[17:50:07] Pokemon Exeggutor (7115451438637987539) renamed from Exeggutor to 68_Exeggutor.
+[17:50:08] Pokemon Magmar (10868489328509941738) renamed from Magmar to 90_Magmar.
+[17:50:09] Name: Bubu Bubu Wood Art INFO: Looting failed, possible softban. Unban in: 1/45
+[17:50:10] Pokemon Horsea (14046364932991231790) renamed from Horsea to 57_Horsea.
+[17:50:10] Pokemon Lapras (15312102694541497046) renamed from Lapras to 86_Lapras.
+[17:50:10] Pokemon Snorlax (6230258282926887437) renamed from Snorlax to 60_Snorlax.
+[17:50:12] Pokemon Lapras (3059923676848874644) renamed from Lapras to 73_Lapras.
+[17:50:12] Pokemon Arcanine (5319556234966264262) renamed from Arcanine to 55_Arcanine.
+[17:50:12] Pokemon Lapras (2095003725018439075) renamed from Lapras to 81_Lapras.
+[17:50:13] Pokemon Arcanine (9491650619416184956) renamed from Arcanine to 33_Arcanine.
+[17:50:13] Pokemon Electabuzz (8407579842966860967) renamed from Electabuzz to 27_Electabuz.
+[17:50:14] Pokemon Dragonite (15163657834141717561) renamed from Dragonite to 91_Dragonite.
+[17:50:15] Pokemon Dragonite (931171562324986575) renamed from Dragonite to 43_Dragonite.
+[17:50:15] Name: Bubu Bubu Wood Art INFO: Looting failed, possible softban. Unban in: 2/45
+[17:50:15] Pokemon Poliwrath (15207710198066148254) renamed from 90_Poliwhirl to 90_Poliwrath.
+[17:50:16] Pokemon Exeggutor (11564732415115553217) renamed from Exeggutor to 78_Exeggutor.
+[17:50:17] Pokemon Dragonite (13839768577220410) renamed from Dragonite to 75_Dragonite.
+[17:50:18] Pokemon Dragonite (12548247535883429158) renamed from Dragonite to 71_Dragonite.
+[17:50:18] Pokemon Dragonite (2127659626472770155) renamed from Dragonite to 60_Dragonite.
+[17:50:18] Pokemon Scyther (7649392171280554145) renamed from Scyther to 93_Scyther.
+[17:50:19] Pokemon Arcanine (13600153427178961426) renamed from Arcanine to 66_Arcanine.
+[17:50:20] Pokemon Dragonite (16223808661826067348) renamed from Dragonite to 65_Dragonite.
+[17:50:20] Pokemon Snorlax (2195559293485372573) renamed from Snorlax to 83_Snorlax.
+[17:50:21] Name: Bubu Bubu Wood Art INFO: Looting failed, possible softban. Unban in: 3/45
+[17:50:22] Pokemon Snorlax (17012118805714007032) renamed from Snorlax to 66_Snorlax.
+[17:50:25] Name: Bubu Bubu Wood Art INFO: Looting failed, possible softban. Unban in: 4/45
+[17:50:31] Name: Bubu Bubu Wood Art INFO: Looting failed, possible softban. Unban in: 5/45
+[17:50:38] Name: Bubu Bubu Wood Art INFO: Looting failed, possible softban. Unban in: 6/45
