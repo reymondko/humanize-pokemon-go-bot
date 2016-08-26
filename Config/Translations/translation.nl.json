@@ -2,11 +2,11 @@
   "TranslationStrings": [
     {
       "Key": "pokeball",
-      "Value": "PokéBall"
+      "Value": "PokeBall"
     },
     {
       "Key": "greatPokeball",
-      "Value": "GreatBall"
+      "Value": "SuperBall"
     },
     {
       "Key": "ultraPokeball",
@@ -14,32 +14,31 @@
     },
     {
       "Key": "masterPokeball",
-      "Value": "MasterBall"
+      "Value": "MeesterBall"
     },
     {
       "Key": "wrongAuthType",
-      "Value": "Authenticatie type is onbekend."
+      "Value": "Onbekende authenticatie methode in config.json."
     },
     {
       "Key": "farmPokestopsOutsideRadius",
-      "Value":
-        "Buiten het ingestelde bereik beland! Terug naar beginpunt ({0}m weg) in 5 seconden. Klopt je LastPos.ini bestand?"
+      "Value": "Buiten het ingestelde bereik beland! Terug naar beginpunt ({0}m weg) in 5 seconden. Klopt het Coords.ini bestand?"
     },
     {
       "Key": "farmPokestopsNoUsableFound",
-      "Value": "Geen geschikte PokéStops gevonden in je omgeving. Is je bereik te klein?"
+      "Value": "Geen bruikbare PokeStops gevonden in je omgeving. Is het ingestelde bereik te klein?"
     },
     {
       "Key": "eventFortUsed",
-      "Value": "XP: {0}, Gems: {1}, Items: {2}"
+      "Value": "Naam: {0} XP: {1}, Gems: {2}, Items: {3}"
     },
     {
       "Key": "eventFortFailed",
-      "Value": "Items verzamelen mislukt, mogelijke softban. Opnieuw proberen: {0}/40"
+      "Value": "Naam: {0} INFO: Buitmaken mislukt, mogelijke softban. Unban in: {1}/{2}"
     },
     {
       "Key": "eventFortTargeted",
-      "Value": "{0} over ({1}m)"
+      "Value": "Aankomst Pokestop: {0} na ({1}m)"
     },
     {
       "Key": "eventProfileLogin",
@@ -48,6 +47,10 @@
     {
       "Key": "eventUsedLuckyEgg",
       "Value": "Lucky Egg gebruikt, resterend: {0}"
+    },
+	{
+      "Key": "eventUseLuckyEggMinPokemonCheck",
+      "Value": "Not enough Pokemon to trigger a lucky egg. Waiting for {0} more. ({1}/{2})"
     },
     {
       "Key": "eventPokemonEvolvedSuccess",
@@ -59,23 +62,19 @@
     },
     {
       "Key": "eventPokemonTransferred",
-      "Value": "{0}\t- CP: {1}  IV: {2}%   [Beste CP: {3}  IV: {4}%] (Candies: {5})"
+      "Value": "{0}\t- CP: {1}  IV: {2}%   [Beste CP: {3}  IV: {4}%] (Snoepjes: {5})"
     },
     {
       "Key": "eventItemRecycled",
       "Value": "{0}x {1}"
     },
     {
-      "Key": "eventPokemonCaptureSuccess",
-      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Kans: {7}% | {8}m ver | met een {9} ({10} over). | {11} EXP verdiend | {12} | lat: {13} long: {14}"
-    },
-    {
-      "Key": "eventPokemonCaptureFailed",
-      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Kans: {7}% | {8}m ver | met een {9} ({10} over). | lat: {11} long: {12}"
+      "Key": "eventPokemonCapture",
+      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Kans: {7}% | Afstand: {8}m | met een {9} ({10} resterend). | {11}"
     },
     {
       "Key": "eventNoPokeballs",
-      "Value": "Geen Pokéballen meer - Een {0} met CP {1} misgelopen "
+      "Value": "Geen PokeBallen - Een {0} met CP {1} misgelopen"
     },
     {
       "Key": "catchStatusAttempt",
@@ -87,15 +86,15 @@
     },
     {
       "Key": "candies",
-      "Value": "Candies: {0}"
+      "Value": "Snoepjes: {0}"
     },
     {
       "Key": "unhandledGpxData",
-      "Value": "Ongehanteerde data in GPX bestand, poging tot overslaan."
+      "Value": "Niet-verwerkte gegevens in GPX bestand, poging tot overslaan."
     },
     {
       "Key": "displayHighestsHeader",
-      "Value": "Pokémons"
+      "Value": "Pokemons"
     },
     {
       "Key": "commonWordPerfect",
@@ -107,19 +106,15 @@
     },
     {
       "Key": "displayHighestsCpHeader",
-      "Value": "Top Pokémons met de Hoogste CP"
+      "Value": "ToonHoogsteCP"
     },
     {
       "Key": "displayHighestsPerfectHeader",
-      "Value": "Top Perfecte Pokémons"
-    },
-    {
-      "Key": "displayHighestsLevelHeader",
-      "Value": "Top Pokémons met het hoogste Level"
+      "Value": "ToonHoogstePerfect"
     },
     {
       "Key": "welcomeWarning",
-      "Value": "Controleer of Lat & Lng kloppen. Sluit de bot af als dat niet zo is! Lat: {0} Lng: {1}"
+      "Value": "Controleer of Make Lat & Lng correct zijn. Sluit het programma als dat niet zo is! Lat: {0} Lng: {1}"
     },
     {
       "Key": "incubatorPuttingEgg",
@@ -130,1348 +125,922 @@
       "Value": "Broedmachine status update: {0:0.00}km resterend"
     },
     {
-      "Key": "PokedexCatchedTelegram",
-      "Value":  "--- Pokedex catched --- \n"  
+      "Key": "displayHighestsLevelHeader",
+      "Value": "ToonHoogstelevel"
     },
     {
-      "Key": "PokedexPokemonCatchedTelegram",
-      "Value":  "#{0} Name: {1} | Catched: {2} | Encountered: {3} \n"  
+      "Key": "logEntryError",
+      "Value": "ERROR"
     },
     {
-      "Key": "PokedexNeededTelegram",
-      "Value":  "--- Pokedex needed --- \n"  
+      "Key": "logEntryAttention",
+      "Value": "ATTENTIE"
     },
     {
-      "Key": "PokedexPokemonNeededTelegram",
-      "Value":  "#{0} Name: {1} \n"  
+      "Key": "logEntryInfo",
+      "Value": "INFO"
+    },
+    {
+      "Key": "logEntryPokestop",
+      "Value": "POKESTOP"
+    },
+    {
+      "Key": "logEntryFarming",
+      "Value": "FARMING"
+    },
+    {
+      "Key": "logEntryRecycling",
+      "Value": "RECYCLING"
+    },
+    {
+      "Key": "logEntryPkmn",
+      "Value": "PKMN"
+    },
+    {
+      "Key": "logEntryTransfered",
+      "Value": "TRANSFER"
+    },
+    {
+      "Key": "logEntryEvolved",
+      "Value": "GEËVOLUEERD"
+    },
+    {
+      "Key": "logEntryBerry",
+      "Value": "BES"
+    },
+    {
+      "Key": "logEntryEgg",
+      "Value": "EI"
+    },
+    {
+      "Key": "logEntryDebug",
+      "Value": "DEBUG"
+    },
+    {
+      "Key": "logEntryUpdate",
+      "Value": "UPDATE"
+    },
+    {
+      "Key": "loggingIn",
+      "Value": "Proberen in te loggen met {0}"
+    },
+    {
+      "Key": "ptcOffline",
+      "Value": "PTC Servers zijn waarschijnlijk overbelast of uw login-gegevens zijn verkeerd. Probeer google!"
+    },
+    {
+      "Key": "accessTokenExpired",
+      "Value": "Access token expired. Relogin to get a new token."
+    },
+    {
+      "Key": "tryingAgainIn",
+      "Value": "Opnieuw proberen in {0} seconden..."
+    },
+    {
+      "Key": "accountNotVerified",
+      "Value": "Account bestaat niet! Afsluiten ..."
+    },
+    {
+      "Key": "commonWordUnknown",
+      "Value": "onbekend"
+    },
+    {
+      "Key": "openingGoogleDevicePage",
+      "Value": "Google Apparaten pagina aan het openen. Kopieer de code met CTRL+V"
+    },
+    {
+      "Key": "couldntCopyToClipboard",
+      "Value": "Kon niet kopiëren naar het klembord, doe het handmatig!"
+    },
+    {
+      "Key": "couldntCopyToClipboard2",
+      "Value": "Ga naar: {0} en vul in {1}"
+    },
+    {
+      "Key": "realisticTravelDetected",
+      "Value": "RealistischVerplaatsen ontdekt, gebruik maken van UserSettings.settings"
+    },
+    {
+      "Key": "notRealisticTravel",
+      "Value": "Niet RealistischVerplaatsen op {0}, met behulp van laatst opgeslagen Coords.ini"
+    },
+    {
+      "Key": "coordinatesAreInvalid",
+      "Value": "Coördinaten in \"Coords.ini\" zijn ongeldig, gebruiken maken van de standaard coördinaten!"
+    },
+    {
+      "Key": "gotUpToDateVersion",
+      "Value": "Perfect! Je hebt al de nieuwste versie {0}"
+    },
+    {
+      "Key": "autoUpdaterDisabled",
+      "Value": "AutoUpdater is uitgeschakeld. Haal de nieuwste versie van: {0}\n "
+    },
+    {
+      "Key": "downloadingUpdate",
+      "Value": "Downloaden en toepassen van update..."
+    },
+    {
+      "Key": "finishedDownloadingRelease",
+      "Value": "Klaar met het downloaden van de laatste versie..."
+    },
+    {
+      "Key": "finishedUnpackingFiles",
+      "Value": "Klaar met het uitpakken van alle bestanden..."
+    },
+    {
+      "Key": "finishedTransferringConfig",
+      "Value": "Klaar met het overzetten uw config naar de nieuwe versie..."
+    },
+    {
+      "Key": "updateFinished",
+      "Value": "Update klaar is, kunt u dit venster nu sluiten."
+    },
+    {
+      "Key": "lookingForIncensePokemon",
+      "Value": "Opzoek naar Incense Pokemon..."
+    },
+    {
+      "Key": "pokemonSkipped",
+      "Value": "{0} overgeslagen"
+    },
+    {
+      "Key": "zeroPokeballInv",
+      "Value": "Je hebt geen Pokeballs in je inventaris, je kunt geen Pokemons meer vangen! "
+    },
+    {
+      "Key": "currentPokeballInv",
+      "Value": "[Huidige inventaris] Pokeballs: {0} | SuperBalls: {1} | UltraBalls: {2} | MeesterBalls: {3} "
+    },
+    {
+      "Key": "checkingForBallsToRecycle",
+      "Value": "Controle of we PokeBalls moeten recyclen, houden van {0} Pokeballs"
+    },
+    {
+      "Key": "checkingForPotionsToRecycle",
+      "Value": "Controle of we Drankjes moeten recyclen, houden van {0} Drankjes"
+    },
+    {
+      "Key": "checkingForRevivesToRecycle",
+      "Value": "Controle of we Revives moeten recyclen, houden van {0} Revives"
+    },
+    {
+      "Key": "pokeballsToKeepIncorrect",
+      "Value": "TotalAmountOfPokeballsToKeep is verkeerd ingesteld. Het number is kleiner dan 1."
+    },
+    {
+      "Key": "potionsToKeepIncorrect",
+      "Value": "TotalAmountOfPotionsToKeep is verkeerd ingesteld. Het number is kleiner dan 1."
+    },
+    {
+      "Key": "revivesToKeepIncorrect",
+      "Value": "TotalAmountOfRevivesToKeep is verkeerd ingesteld. Het number is kleiner dan 1."
+    },
+    {
+      "Key": "invFullTransferring",
+      "Value": "Pokemon Inventaris is vol, transferring Pokemon..."
+    },
+    {
+      "Key": "invFullTransferManually",
+      "Value": "Pokemon Inventaris is vol! Transfer Pokemons, of zet TransferDuplicatePokemon op true in config.json!"
+    },
+    {
+      "Key": "invFullPokestopLooting",
+      "Value": "Inventaris is vol, geen items buitgemaakt!"
+    },
+    {
+      "Key": "incubatorEggHatched",
+      "Value": "Een ei is uitgekomen: {0} | Lvl: {1} CP: ({2}/{3}) IV: {4}%"
+    },
+    {
+      "Key": "encounterProblem",
+      "Value": "Problem gevonden: {0}"
+    },
+    {
+      "Key": "encounterProblemLurePokemon",
+      "Value": "Problem gevonden: Lure Pokemon {0}"
+    },
+    {
+      "Key": "lookingForPokemon",
+      "Value": "Opzoek naar Pokemons..."
+    },
+    {
+      "Key": "lookingForLurePokemon",
+      "Value": "Opzoek naar Lure Pokemons..."
+    },
+    {
+      "Key": "desiredDestTooFar",
+      "Value": "De gewenste bestemming van {0}, {1} is te ver van uw huidige positie van {2}, {3}"
+    },
+    {
+      "Key": "pokemonRename",
+      "Value": "Pokemon {0} ({1}) hernoemd van {2} naar {3}."
+    },
+    {
+      "Key": "pokemonIgnoreFilter",
+      "Value": "[Pokemon negeer filter] - Negeer {0}, zoals ingesteld in config.json."
+    },
+    {
+      "Key": "catchStatusError",
+      "Value": "VangError"
+    },
+    {
+      "Key": "catchStatusEscape",
+      "Value": "VangOntsnapt"
+    },
+    {
+      "Key": "catchStatusFlee",
+      "Value": "VangOntvlucht"
+    },
+    {
+      "Key": "catchStatusMissed",
+      "Value": "VangMislukt"
+    },
+    {
+      "Key": "catchStatusSuccess",
+      "Value": "VangSuccess"
+    },
+    {
+      "Key": "catchTypeNormal",
+      "Value": "Normaal"
+    },
+    {
+      "Key": "catchTypeLure",
+      "Value": "Lure"
+    },
+    {
+      "Key": "catchTypeIncense",
+      "Value": "Incense"
+    },
+    {
+      "Key": "webSocketFailStart",
+      "Value": "Kan WebSocketServer niet starten op poort: {0}"
+    },
+    {
+      "Key": "statsTemplateString",
+      "Value": "{0} - Uitvoeringstijd {1} - Lvl: {2} | EXP/H: {3:n0} | P/H: {4:n0} | Stardust: {5:n0} | Transfered: {6:n0} | Recycled: {7:n0}"
+    },
+    {
+      "Key": "statsXpTemplateString",
+      "Value": "{0} (Verder in {1}h {2}m | {3:n0}/{4:n0} XP)"
+    },
+    {
+      "Key": "requireInputText",
+      "Value": "Druk op een toest om verder te gaan..."
+    },
+    {
+      "Key": "googleTwoFactorAuth",
+      "Value": "Omdat u Google Two-Factor Auth ingeschakeld hebt, moet u een app-Specifiek wachtwoord invullen in de auth.json!"
+    },
+    {
+      "Key": "googleTwoFactorAuthExplanation",
+      "Value": "Opening Google App-Passwords. Maak een nieuw App-Wachtwoord aan (gebruik: Ander, als toestel)"
+    },
+    {
+      "Key": "googleError",
+      "Value": "Zorg ervoor dat je het juiste e-mail en wachtwoord hebt ingevoerd!"
+    },
+    {
+      "Key": "missingCredentialsGoogle",
+      "Value": "Je moet je GoogleGebruikersnaam en GoogleWachtwoord in auth.json invoeren!"
+    },
+    {
+      "Key": "missingCredentialsPtc",
+      "Value": "Je moet je PtcGebruikersnaam en PtcWachtwoord in auth.json invoeren!"
+    },
+    {
+      "Key": "snipeScan",
+      "Value": "[Sniper] Zoeken naar vangbare Pokemon(s) op {0}..."
+    },
+    {
+      "Key": "snipeScanEx",
+      "Value": "[Sniper] Probeer een {0} te vangen met {1} IV op {2}..."
+    },
+    {
+      "Key": "noPokemonToSnipe",
+      "Value": "[Sniper] Geen Pokemon gevonden om te vangen!"
+    },
+    {
+      "Key": "notEnoughPokeballsToSnipe",
+      "Value": "Niet genoeg Pokeballs om te beginnen met Snipen! ({0}/{1})"
+    },
+    {
+      "Key": "displayHighestMove1Header",
+      "Value": "AANVAL1"
+    },
+    {
+      "Key": "displayHighestMove2Header",
+      "Value": "AANVAL2"
     }
   ],
-	"PokemonStrings": [
+  "pokemon": [
     {
-      "Key": "bulbasaur",
+      "Key": "Missingno",
+      "Value": "Missingno"
+    },
+    {
+      "Key": "Bulbasaur",
       "Value": "Bulbasaur"
     },
     {
-      "Key": "ivysaur",
+      "Key": "Ivysaur",
       "Value": "Ivysaur"
     },
     {
-      "Key": "venusaur",
+      "Key": "Venusaur",
       "Value": "Venusaur"
     },
     {
-      "Key": "charmander",
+      "Key": "Charmander",
       "Value": "Charmander"
     },
     {
-      "Key": "charmeleon",
+      "Key": "Charmeleon",
       "Value": "Charmeleon"
     },
     {
-      "Key": "charizard",
+      "Key": "Charizard",
       "Value": "Charizard"
     },
     {
-      "Key": "squirtle",
+      "Key": "Squirtle",
       "Value": "Squirtle"
     },
     {
-      "Key": "wartortle",
+      "Key": "Wartortle",
       "Value": "Wartortle"
     },
     {
-      "Key": "blastoise",
+      "Key": "Blastoise",
       "Value": "Blastoise"
     },
     {
-      "Key": "caterpie",
+      "Key": "Caterpie",
       "Value": "Caterpie"
     },
     {
-      "Key": "metapod",
+      "Key": "Metapod",
       "Value": "Metapod"
     },
     {
-      "Key": "butterfree",
+      "Key": "Butterfree",
       "Value": "Butterfree"
     },
     {
-      "Key": "weedle",
+      "Key": "Weedle",
       "Value": "Weedle"
     },
     {
-      "Key": "kakuna",
+      "Key": "Kakuna",
       "Value": "Kakuna"
     },
     {
-      "Key": "beedrill",
+      "Key": "Beedrill",
       "Value": "Beedrill"
     },
     {
-      "Key": "pidgey",
+      "Key": "Pidgey",
       "Value": "Pidgey"
     },
     {
-      "Key": "pidgeotto",
+      "Key": "Pidgeotto",
       "Value": "Pidgeotto"
     },
     {
-      "Key": "pidgeot",
+      "Key": "Pidgeot",
       "Value": "Pidgeot"
     },
     {
-      "Key": "rattata",
+      "Key": "Rattata",
       "Value": "Rattata"
     },
     {
-      "Key": "raticate",
+      "Key": "Raticate",
       "Value": "Raticate"
     },
     {
-      "Key": "spearow",
+      "Key": "Spearow",
       "Value": "Spearow"
     },
     {
-      "Key": "fearow",
+      "Key": "Fearow",
       "Value": "Fearow"
     },
     {
-      "Key": "ekans",
+      "Key": "Ekans",
       "Value": "Ekans"
     },
     {
-      "Key": "arbok",
+      "Key": "Arbok",
       "Value": "Arbok"
     },
     {
-      "Key": "pikachu",
+      "Key": "Pikachu",
       "Value": "Pikachu"
     },
     {
-      "Key": "raichu",
+      "Key": "Raichu",
       "Value": "Raichu"
     },
     {
-      "Key": "sandshrew",
+      "Key": "Sandshrew",
       "Value": "Sandshrew"
     },
     {
-      "Key": "sandslash",
+      "Key": "Sandslash",
       "Value": "Sandslash"
     },
     {
-      "Key": "nidoranFemale",
+      "Key": "NidoranFemale",
       "Value": "NidoranF"
     },
     {
-      "Key": "nidorina",
+      "Key": "Nidorina",
       "Value": "Nidorina"
     },
     {
-      "Key": "nidoqueen",
+      "Key": "Nidoqueen",
       "Value": "Nidoqueen"
     },
     {
-      "Key": "nidoranMale",
+      "Key": "NidoranMale",
       "Value": "NidoranM"
     },
     {
-      "Key": "nidorino",
+      "Key": "Nidorino",
       "Value": "Nidorino"
     },
     {
-      "Key": "nidoking",
+      "Key": "Nidoking",
       "Value": "Nidoking"
     },
     {
-      "Key": "clefairy",
+      "Key": "Clefairy",
       "Value": "Clefairy"
     },
     {
-      "Key": "clefable",
+      "Key": "Clefable",
       "Value": "Clefable"
     },
     {
-      "Key": "vulpix",
+      "Key": "Vulpix",
       "Value": "Vulpix"
     },
     {
-      "Key": "ninetales",
+      "Key": "Ninetales",
       "Value": "Ninetales"
     },
     {
-      "Key": "jigglypuff",
+      "Key": "Jigglypuff",
       "Value": "Jigglypuff"
     },
     {
-      "Key": "wigglytuff",
+      "Key": "Wigglytuff",
       "Value": "Wigglytuff"
     },
     {
-      "Key": "zubat",
+      "Key": "Zubat",
       "Value": "Zubat"
     },
     {
-      "Key": "golbat",
+      "Key": "Golbat",
       "Value": "Golbat"
     },
     {
-      "Key": "oddish",
+      "Key": "Oddish",
       "Value": "Oddish"
     },
     {
-      "Key": "gloom",
+      "Key": "Gloom",
       "Value": "Gloom"
     },
     {
-      "Key": "vileplume",
+      "Key": "Vileplume",
       "Value": "Vileplume"
     },
     {
-      "Key": "paras",
+      "Key": "Paras",
       "Value": "Paras"
     },
     {
-      "Key": "parasect",
+      "Key": "Parasect",
       "Value": "Parasect"
     },
     {
-      "Key": "venonat",
+      "Key": "Venonat",
       "Value": "Venonat"
     },
     {
-      "Key": "venomoth",
+      "Key": "Venomoth",
       "Value": "Venomoth"
     },
     {
-      "Key": "diglett",
+      "Key": "Diglett",
       "Value": "Diglett"
     },
     {
-      "Key": "dugtrio",
+      "Key": "Dugtrio",
       "Value": "Dugtrio"
     },
     {
-      "Key": "meowth",
+      "Key": "Meowth",
       "Value": "Meowth"
     },
     {
-      "Key": "persian",
+      "Key": "Persian",
       "Value": "Persian"
     },
     {
-      "Key": "psyduck",
+      "Key": "Psyduck",
       "Value": "Psyduck"
     },
     {
-      "Key": "golduck",
+      "Key": "Golduck",
       "Value": "Golduck"
     },
     {
-      "Key": "mankey",
+      "Key": "Mankey",
       "Value": "Mankey"
     },
     {
-      "Key": "primeape",
+      "Key": "Primeape",
       "Value": "Primeape"
     },
     {
-      "Key": "growlithe",
+      "Key": "Growlithe",
       "Value": "Growlithe"
     },
     {
-      "Key": "arcanine",
+      "Key": "Arcanine",
       "Value": "Arcanine"
     },
     {
-      "Key": "poliwag",
+      "Key": "Poliwag",
       "Value": "Poliwag"
     },
     {
-      "Key": "poliwhirl",
+      "Key": "Poliwhirl",
       "Value": "Poliwhirl"
     },
     {
-      "Key": "poliwrath",
+      "Key": "Poliwrath",
       "Value": "Poliwrath"
     },
     {
-      "Key": "abra",
+      "Key": "Abra",
       "Value": "Abra"
     },
     {
-      "Key": "kadabra",
+      "Key": "Kadabra",
       "Value": "Kadabra"
     },
     {
-      "Key": "alakazam",
+      "Key": "Alakazam",
       "Value": "Alakazam"
     },
     {
-      "Key": "machop",
+      "Key": "Machop",
       "Value": "Machop"
     },
     {
-      "Key": "machoke",
+      "Key": "Machoke",
       "Value": "Machoke"
     },
     {
-      "Key": "machamp",
+      "Key": "Machamp",
       "Value": "Machamp"
     },
     {
-      "Key": "bellsprout",
+      "Key": "Bellsprout",
       "Value": "Bellsprout"
     },
     {
-      "Key": "weepinbell",
+      "Key": "Weepinbell",
       "Value": "Weepinbell"
     },
     {
-      "Key": "victreebel",
+      "Key": "Victreebel",
       "Value": "Victreebel"
     },
     {
-      "Key": "tentacool",
+      "Key": "Tentacool",
       "Value": "Tentacool"
     },
     {
-      "Key": "tentacruel",
+      "Key": "Tentacruel",
       "Value": "Tentacruel"
     },
     {
-      "Key": "geodude",
+      "Key": "Geodude",
       "Value": "Geodude"
     },
     {
-      "Key": "graveler",
+      "Key": "Graveler",
       "Value": "Graveler"
     },
     {
-      "Key": "golem",
+      "Key": "Golem",
       "Value": "Golem"
     },
     {
-      "Key": "ponyta",
+      "Key": "Ponyta",
       "Value": "Ponyta"
     },
     {
-      "Key": "rapidash",
+      "Key": "Rapidash",
       "Value": "Rapidash"
     },
     {
-      "Key": "slowpoke",
+      "Key": "Slowpoke",
       "Value": "Slowpoke"
     },
     {
-      "Key": "slowbro",
+      "Key": "Slowbro",
       "Value": "Slowbro"
     },
     {
-      "Key": "magnemite",
+      "Key": "Magnemite",
       "Value": "Magnemite"
     },
     {
-      "Key": "magneton",
+      "Key": "Magneton",
       "Value": "Magneton"
     },
     {
-      "Key": "farfetchd",
-      "Value": "Farfetchd"
+      "Key": "Farfetchd",
+      "Value": "Farfetch'd"
     },
     {
-      "Key": "doduo",
+      "Key": "Doduo",
       "Value": "Doduo"
     },
     {
-      "Key": "dodrio",
+      "Key": "Dodrio",
       "Value": "Dodrio"
     },
     {
-      "Key": "seel",
+      "Key": "Seel",
       "Value": "Seel"
     },
     {
-      "Key": "dewgong",
+      "Key": "Dewgong",
       "Value": "Dewgong"
     },
     {
-      "Key": "grimer",
+      "Key": "Grimer",
       "Value": "Grimer"
     },
     {
-      "Key": "muk",
+      "Key": "Muk",
       "Value": "Muk"
     },
     {
-      "Key": "shellder",
+      "Key": "Shellder",
       "Value": "Shellder"
     },
     {
-      "Key": "cloyster",
+      "Key": "Cloyster",
       "Value": "Cloyster"
     },
     {
-      "Key": "gastly",
+      "Key": "Gastly",
       "Value": "Gastly"
     },
     {
-      "Key": "haunter",
+      "Key": "Haunter",
       "Value": "Haunter"
     },
     {
-      "Key": "gengar",
+      "Key": "Gengar",
       "Value": "Gengar"
     },
     {
-      "Key": "onix",
+      "Key": "Onix",
       "Value": "Onix"
     },
     {
-      "Key": "drowzee",
+      "Key": "Drowzee",
       "Value": "Drowzee"
     },
     {
-      "Key": "hypno",
+      "Key": "Hypno",
       "Value": "Hypno"
     },
     {
-      "Key": "krabby",
+      "Key": "Krabby",
       "Value": "Krabby"
     },
     {
-      "Key": "kingler",
+      "Key": "Kingler",
       "Value": "Kingler"
     },
     {
-      "Key": "voltorb",
+      "Key": "Voltorb",
       "Value": "Voltorb"
     },
     {
-      "Key": "electrode",
+      "Key": "Electrode",
       "Value": "Electrode"
     },
     {
-      "Key": "exeggcute",
+      "Key": "Exeggcute",
       "Value": "Exeggcute"
     },
     {
-      "Key": "exeggutor",
+      "Key": "Exeggutor",
       "Value": "Exeggutor"
     },
     {
-      "Key": "cubone",
+      "Key": "Cubone",
       "Value": "Cubone"
     },
     {
-      "Key": "marowak",
+      "Key": "Marowak",
       "Value": "Marowak"
     },
     {
-      "Key": "hitmonlee",
+      "Key": "Hitmonlee",
       "Value": "Hitmonlee"
     },
     {
-      "Key": "hitmonchan",
+      "Key": "Hitmonchan",
       "Value": "Hitmonchan"
     },
     {
-      "Key": "lickitung",
+      "Key": "Lickitung",
       "Value": "Lickitung"
     },
     {
-      "Key": "koffing",
+      "Key": "Koffing",
       "Value": "Koffing"
     },
     {
-      "Key": "weezing",
+      "Key": "Weezing",
       "Value": "Weezing"
     },
     {
-      "Key": "rhyhorn",
+      "Key": "Rhyhorn",
       "Value": "Rhyhorn"
     },
     {
-      "Key": "rhydon",
+      "Key": "Rhydon",
       "Value": "Rhydon"
     },
     {
-      "Key": "chansey",
+      "Key": "Chansey",
       "Value": "Chansey"
     },
     {
-      "Key": "tangela",
+      "Key": "Tangela",
       "Value": "Tangela"
     },
     {
-      "Key": "kangaskhan",
+      "Key": "Kangaskhan",
       "Value": "Kangaskhan"
     },
     {
-      "Key": "horsea",
+      "Key": "Horsea",
       "Value": "Horsea"
     },
     {
-      "Key": "seadra",
+      "Key": "Seadra",
       "Value": "Seadra"
     },
     {
-      "Key": "goldeen",
+      "Key": "Goldeen",
       "Value": "Goldeen"
     },
     {
-      "Key": "seaking",
+      "Key": "Seaking",
       "Value": "Seaking"
     },
     {
-      "Key": "staryu",
+      "Key": "Staryu",
       "Value": "Staryu"
     },
     {
-      "Key": "starmie",
+      "Key": "Starmie",
       "Value": "Starmie"
     },
     {
-      "Key": "mrMime",
+      "Key": "MrMime",
       "Value": "Mr. Mime"
     },
     {
-      "Key": "scyther",
+      "Key": "Scyther",
       "Value": "Scyther"
     },
     {
-      "Key": "jynx",
+      "Key": "Jynx",
       "Value": "Jynx"
     },
     {
-      "Key": "electabuzz",
+      "Key": "Electabuzz",
       "Value": "Electabuzz"
     },
     {
-      "Key": "magmar",
+      "Key": "Magmar",
       "Value": "Magmar"
     },
     {
-      "Key": "pinsir",
+      "Key": "Pinsir",
       "Value": "Pinsir"
     },
     {
-      "Key": "tauros",
+      "Key": "Tauros",
       "Value": "Tauros"
     },
     {
-      "Key": "magikarp",
+      "Key": "Magikarp",
       "Value": "Magikarp"
     },
     {
-      "Key": "gyarados",
+      "Key": "Gyarados",
       "Value": "Gyarados"
     },
     {
-      "Key": "lapras",
+      "Key": "Lapras",
       "Value": "Lapras"
     },
     {
-      "Key": "ditto",
+      "Key": "Ditto",
       "Value": "Ditto"
     },
     {
-      "Key": "eevee",
+      "Key": "Eevee",
       "Value": "Eevee"
     },
     {
-      "Key": "vaporeon",
+      "Key": "Vaporeon",
       "Value": "Vaporeon"
     },
     {
-      "Key": "jolteon",
+      "Key": "Jolteon",
       "Value": "Jolteon"
     },
     {
-      "Key": "flareon",
+      "Key": "Flareon",
       "Value": "Flareon"
     },
     {
-      "Key": "porygon",
+      "Key": "Porygon",
       "Value": "Porygon"
     },
     {
-      "Key": "omanyte",
+      "Key": "Omanyte",
       "Value": "Omanyte"
     },
     {
-      "Key": "omastar",
+      "Key": "Omastar",
       "Value": "Omastar"
     },
     {
-      "Key": "kabuto",
+      "Key": "Kabuto",
       "Value": "Kabuto"
     },
     {
-      "Key": "kabutops",
+      "Key": "Kabutops",
       "Value": "Kabutops"
     },
     {
-      "Key": "aerodactyl",
+      "Key": "Aerodactyl",
       "Value": "Aerodactyl"
     },
     {
-      "Key": "snorlax",
+      "Key": "Snorlax",
       "Value": "Snorlax"
     },
     {
-      "Key": "articuno",
+      "Key": "Articuno",
       "Value": "Articuno"
     },
     {
-      "Key": "zapdos",
+      "Key": "Zapdos",
       "Value": "Zapdos"
     },
     {
-      "Key": "moltres",
+      "Key": "Moltres",
       "Value": "Moltres"
     },
     {
-      "Key": "dratini",
+      "Key": "Dratini",
       "Value": "Dratini"
     },
     {
-      "Key": "dragonair",
+      "Key": "Dragonair",
       "Value": "Dragonair"
     },
     {
-      "Key": "dragonite",
+      "Key": "Dragonite",
       "Value": "Dragonite"
     },
     {
-      "Key": "mewtwo",
+      "Key": "Mewtwo",
       "Value": "Mewtwo"
     },
     {
-      "Key": "mew",
+      "Key": "Mew",
       "Value": "Mew"
-    }
-  ],
-  "PokemonMovesetStrings": [
-    {
-      "Key": "moveUnset",
-      "Value": "MoveUnset"
-    },
-    {
-      "Key": "thunderShock",
-      "Value": "ThunderShock"
-    },
-    {
-      "Key": "quickAttack",
-      "Value": "QuickAttack"
-    },
-    {
-      "Key": "scratch",
-      "Value": "Scratch"
-    },
-    {
-      "Key": "ember",
-      "Value": "Ember"
-    },
-    {
-      "Key": "vineWhip",
-      "Value": "VineWhip"
-    },
-    {
-      "Key": "tackle",
-      "Value": "Tackle"
-    },
-    {
-      "Key": "razorLeaf",
-      "Value": "RazorLeaf"
-    },
-    {
-      "Key": "takeDown",
-      "Value": "TakeDown"
-    },
-    {
-      "Key": "waterGun",
-      "Value": "WaterGun"
-    },
-    {
-      "Key": "bite",
-      "Value": "Bite"
-    },
-    {
-      "Key": "pound",
-      "Value": "Pound"
-    },
-    {
-      "Key": "doubleSlap",
-      "Value": "DoubleSlap"
-    },
-    {
-      "Key": "wrap",
-      "Value": "Wrap"
-    },
-    {
-      "Key": "hyperBeam",
-      "Value": "HyperBeam"
-    },
-    {
-      "Key": "lick",
-      "Value": "Lick"
-    },
-    {
-      "Key": "darkPulse",
-      "Value": "DarkPulse"
-    },
-    {
-      "Key": "smog",
-      "Value": "Smog"
-    },
-    {
-      "Key": "sludge",
-      "Value": "Sludge"
-    },
-    {
-      "Key": "metalClaw",
-      "Value": "MetalClaw"
-    },
-    {
-      "Key": "viceGrip",
-      "Value": "ViceGrip"
-    },
-    {
-      "Key": "flameWheel",
-      "Value": "FlameWheel"
-    },
-    {
-      "Key": "megahorn",
-      "Value": "Megahorn"
-    },
-    {
-      "Key": "wingAttack",
-      "Value": "WingAttack"
-    },
-    {
-      "Key": "flamethrower",
-      "Value": "Flamethrower"
-    },
-    {
-      "Key": "suckerPunch",
-      "Value": "SuckerPunch"
-    },
-    {
-      "Key": "dig",
-      "Value": "Dig"
-    },
-    {
-      "Key": "lowKick",
-      "Value": "LowKick"
-    },
-    {
-      "Key": "crossChop",
-      "Value": "CrossChop"
-    },
-    {
-      "Key": "psychoCut",
-      "Value": "PsychoCut"
-    },
-    {
-      "Key": "psybeam",
-      "Value": "Psybeam"
-    },
-    {
-      "Key": "earthquake",
-      "Value": "Earthquake"
-    },
-    {
-      "Key": "stoneEdge",
-      "Value": "StoneEdge"
-    },
-    {
-      "Key": "icePunch",
-      "Value": "IcePunch"
-    },
-    {
-      "Key": "heartStamp",
-      "Value": "HeartStamp"
-    },
-    {
-      "Key": "discharge",
-      "Value": "Discharge"
-    },
-    {
-      "Key": "flashCannon",
-      "Value": "FlashCannon"
-    },
-    {
-      "Key": "peck",
-      "Value": "Peck"
-    },
-    {
-      "Key": "drillPeck",
-      "Value": "DrillPeck"
-    },
-    {
-      "Key": "iceBeam",
-      "Value": "IceBeam"
-    },
-    {
-      "Key": "blizzard",
-      "Value": "Blizzard"
-    },
-    {
-      "Key": "airSlash",
-      "Value": "AirSlash"
-    },
-    {
-      "Key": "heatWave",
-      "Value": "HeatWave"
-    },
-    {
-      "Key": "twineedle",
-      "Value": "Twineedle"
-    },
-    {
-      "Key": "poisonJab",
-      "Value": "PoisonJab"
-    },
-    {
-      "Key": "aerialAce",
-      "Value": "AerialAce"
-    },
-    {
-      "Key": "drillRun",
-      "Value": "DrillRun"
-    },
-    {
-      "Key": "petalBlizzard",
-      "Value": "PetalBlizzard"
-    },
-    {
-      "Key": "megaDrain",
-      "Value": "MegaDrain"
-    },
-    {
-      "Key": "bugBuzz",
-      "Value": "BugBuzz"
-    },
-    {
-      "Key": "poisonFang",
-      "Value": "PoisonFang"
-    },
-    {
-      "Key": "nightSlash",
-      "Value": "NightSlash"
-    },
-    {
-      "Key": "slash",
-      "Value": "Slash"
-    },
-    {
-      "Key": "bubbleBeam",
-      "Value": "BubbleBeam"
-    },
-    {
-      "Key": "submission",
-      "Value": "Submission"
-    },
-    {
-      "Key": "karateChop",
-      "Value": "KarateChop"
-    },
-    {
-      "Key": "lowSweep",
-      "Value": "LowSweep"
-    },
-    {
-      "Key": "aquaJet",
-      "Value": "AquaJet"
-    },
-    {
-      "Key": "aquaTail",
-      "Value": "AquaTail"
-    },
-    {
-      "Key": "seedBomb",
-      "Value": "SeedBomb"
-    },
-    {
-      "Key": "psyshock",
-      "Value": "Psyshock"
-    },
-    {
-      "Key": "rockThrow",
-      "Value": "RockThrow"
-    },
-    {
-      "Key": "ancientPower",
-      "Value": "AncientPower"
-    },
-    {
-      "Key": "rockTomb",
-      "Value": "RockTomb"
-    },
-    {
-      "Key": "rockSlide",
-      "Value": "RockSlide"
-    },
-    {
-      "Key": "powerGem",
-      "Value": "PowerGem"
-    },
-    {
-      "Key": "shadowSneak",
-      "Value": "ShadowSneak"
-    },
-    {
-      "Key": "shadowPunch",
-      "Value": "ShadowPunch"
-    },
-    {
-      "Key": "shadowClaw",
-      "Value": "ShadowClaw"
-    },
-    {
-      "Key": "ominousWind",
-      "Value": "OminousWind"
-    },
-    {
-      "Key": "shadowBall",
-      "Value": "ShadowBall"
-    },
-    {
-      "Key": "bulletPunch",
-      "Value": "BulletPunch"
-    },
-    {
-      "Key": "magnetBomb",
-      "Value": "MagnetBomb"
-    },
-    {
-      "Key": "steelWing",
-      "Value": "SteelWing"
-    },
-    {
-      "Key": "ironHead",
-      "Value": "IronHead"
-    },
-    {
-      "Key": "parabolicCharge",
-      "Value": "ParabolicCharge"
-    },
-    {
-      "Key": "spark",
-      "Value": "Spark"
-    },
-    {
-      "Key": "thunderPunch",
-      "Value": "ThunderPunch"
-    },
-    {
-      "Key": "thunder",
-      "Value": "Thunder"
-    },
-    {
-      "Key": "thunderbolt",
-      "Value": "Thunderbolt"
-    },
-    {
-      "Key": "twister",
-      "Value": "Twister"
-    },
-    {
-      "Key": "dragonBreath",
-      "Value": "DragonBreath"
-    },
-    {
-      "Key": "dragonPulse",
-      "Value": "DragonPulse"
-    },
-    {
-      "Key": "dragonClaw",
-      "Value": "DragonClaw"
-    },
-    {
-      "Key": "disarmingVoice",
-      "Value": "DisarmingVoice"
-    },
-    {
-      "Key": "drainingKiss",
-      "Value": "DrainingKiss"
-    },
-    {
-      "Key": "dazzlingGleam",
-      "Value": "DazzlingGleam"
-    },
-    {
-      "Key": "moonblast",
-      "Value": "Moonblast"
-    },
-    {
-      "Key": "playRough",
-      "Value": "PlayRough"
-    },
-    {
-      "Key": "crossPoison",
-      "Value": "CrossPoison"
-    },
-    {
-      "Key": "sludgeBomb",
-      "Value": "SludgeBomb"
-    },
-    {
-      "Key": "sludgeWave",
-      "Value": "SludgeWave"
-    },
-    {
-      "Key": "gunkShot",
-      "Value": "GunkShot"
-    },
-    {
-      "Key": "mudShot",
-      "Value": "MudShot"
-    },
-    {
-      "Key": "boneClub",
-      "Value": "BoneClub"
-    },
-    {
-      "Key": "bulldoze",
-      "Value": "Bulldoze"
-    },
-    {
-      "Key": "mudBomb",
-      "Value": "MudBomb"
-    },
-    {
-      "Key": "furyCutter",
-      "Value": "FuryCutter"
-    },
-    {
-      "Key": "bugBite",
-      "Value": "BugBite"
-    },
-    {
-      "Key": "signalBeam",
-      "Value": "SignalBeam"
-    },
-    {
-      "Key": "xScissor",
-      "Value": "XScissor"
-    },
-    {
-      "Key": "flameCharge",
-      "Value": "FlameCharge"
-    },
-    {
-      "Key": "flameBurst",
-      "Value": "FlameBurst"
-    },
-    {
-      "Key": "fireBlast",
-      "Value": "FireBlast"
-    },
-    {
-      "Key": "brine",
-      "Value": "Brine"
-    },
-    {
-      "Key": "waterPulse",
-      "Value": "WaterPulse"
-    },
-    {
-      "Key": "scald",
-      "Value": "Scald"
-    },
-    {
-      "Key": "hydroPump",
-      "Value": "HydroPump"
-    },
-    {
-      "Key": "psychic",
-      "Value": "Psychic"
-    },
-    {
-      "Key": "psystrike",
-      "Value": "Psystrike"
-    },
-    {
-      "Key": "iceShard",
-      "Value": "IceShard"
-    },
-    {
-      "Key": "icyWind",
-      "Value": "IcyWind"
-    },
-    {
-      "Key": "frostBreath",
-      "Value": "FrostBreath"
-    },
-    {
-      "Key": "absorb",
-      "Value": "Absorb"
-    },
-    {
-      "Key": "gigaDrain",
-      "Value": "GigaDrain"
-    },
-    {
-      "Key": "firePunch",
-      "Value": "FirePunch"
-    },
-    {
-      "Key": "solarBeam",
-      "Value": "SolarBeam"
-    },
-    {
-      "Key": "leafBlade",
-      "Value": "LeafBlade"
-    },
-    {
-      "Key": "powerWhip",
-      "Value": "PowerWhip"
-    },
-    {
-      "Key": "splash",
-      "Value": "Splash"
-    },
-    {
-      "Key": "acid",
-      "Value": "Acid"
-    },
-    {
-      "Key": "airCutter",
-      "Value": "AirCutter"
-    },
-    {
-      "Key": "hurricane",
-      "Value": "Hurricane"
-    },
-    {
-      "Key": "brickBreak",
-      "Value": "BrickBreak"
-    },
-    {
-      "Key": "cut",
-      "Value": "Cut"
-    },
-    {
-      "Key": "swift",
-      "Value": "Swift"
-    },
-    {
-      "Key": "hornAttack",
-      "Value": "HornAttack"
-    },
-    {
-      "Key": "stomp",
-      "Value": "Stomp"
-    },
-    {
-      "Key": "headbutt",
-      "Value": "Headbutt"
-    },
-    {
-      "Key": "hyperFang",
-      "Value": "HyperFang"
-    },
-    {
-      "Key": "slam",
-      "Value": "Slam"
-    },
-    {
-      "Key": "bodySlam",
-      "Value": "BodySlam"
-    },
-    {
-      "Key": "rest",
-      "Value": "Rest"
-    },
-    {
-      "Key": "struggle",
-      "Value": "Struggle"
-    },
-    {
-      "Key": "scaldBlastoise",
-      "Value": "ScaldBlastoise"
-    },
-    {
-      "Key": "hydroPumpBlastoise",
-      "Value": "HydroPumpBlastoise"
-    },
-    {
-      "Key": "wrapGreen",
-      "Value": "WrapGreen"
-    },
-    {
-      "Key": "wrapPink",
-      "Value": "WrapPink"
-    },
-    {
-      "Key": "furyCutterFast",
-      "Value": "FuryCutterFast"
-    },
-    {
-      "Key": "bugBiteFast",
-      "Value": "BugBiteFast"
-    },
-    {
-      "Key": "biteFast",
-      "Value": "BiteFast"
-    },
-    {
-      "Key": "suckerPunchFast",
-      "Value": "SuckerPunchFast"
-    },
-    {
-      "Key": "dragonBreathFast",
-      "Value": "DragonBreathFast"
-    },
-    {
-      "Key": "thunderShockFast",
-      "Value": "ThunderShockFast"
-    },
-    {
-      "Key": "sparkFast",
-      "Value": "SparkFast"
-    },
-    {
-      "Key": "lowKickFast",
-      "Value": "LowKickFast"
-    },
-    {
-      "Key": "karateChopFast",
-      "Value": "KarateChopFast"
-    },
-    {
-      "Key": "emberFast",
-      "Value": "EmberFast"
-    },
-    {
-      "Key": "wingAttackFast",
-      "Value": "WingAttackFast"
-    },
-    {
-      "Key": "peckFast",
-      "Value": "PeckFast"
-    },
-    {
-      "Key": "lickFast",
-      "Value": "LickFast"
-    },
-    {
-      "Key": "shadowClawFast",
-      "Value": "ShadowClawFast"
-    },
-    {
-      "Key": "vineWhipFast",
-      "Value": "VineWhipFast"
-    },
-    {
-      "Key": "razorLeafFast",
-      "Value": "RazorLeafFast"
-    },
-    {
-      "Key": "mudShotFast",
-      "Value": "MudShotFast"
-    },
-    {
-      "Key": "iceShardFast",
-      "Value": "IceShardFast"
-    },
-    {
-      "Key": "frostBreathFast",
-      "Value": "FrostBreathFast"
-    },
-    {
-      "Key": "quickAttackFast",
-      "Value": "QuickAttackFast"
-    },
-    {
-      "Key": "scratchFast",
-      "Value": "ScratchFast"
-    },
-    {
-      "Key": "tackleFast",
-      "Value": "TackleFast"
-    },
-    {
-      "Key": "poundFast",
-      "Value": "PoundFast"
-    },
-    {
-      "Key": "cutFast",
-      "Value": "CutFast"
-    },
-    {
-      "Key": "poisonJabFast",
-      "Value": "PoisonJabFast"
-    },
-    {
-      "Key": "acidFast",
-      "Value": "AcidFast"
-    },
-    {
-      "Key": "psychoCutFast",
-      "Value": "PsychoCutFast"
-    },
-    {
-      "Key": "rockThrowFast",
-      "Value": "RockThrowFast"
-    },
-    {
-      "Key": "metalClawFast",
-      "Value": "MetalClawFast"
-    },
-    {
-      "Key": "bulletPunchFast",
-      "Value": "BulletPunchFast"
-    },
-    {
-      "Key": "waterGunFast",
-      "Value": "WaterGunFast"
-    },
-    {
-      "Key": "splashFast",
-      "Value": "SplashFast"
-    },
-    {
-      "Key": "waterGunFastBlastoise",
-      "Value": "WaterGunFastBlastoise"
-    },
-    {
-      "Key": "mudSlapFast",
-      "Value": "MudSlapFast"
-    },
-    {
-      "Key": "zenHeadbuttFast",
-      "Value": "ZenHeadbuttFast"
-    },
-    {
-      "Key": "confusionFast",
-      "Value": "ConfusionFast"
-    },
-    {
-      "Key": "poisonStingFast",
-      "Value": "PoisonStingFast"
-    },
-    {
-      "Key": "bubbleFast",
-      "Value": "BubbleFast"
-    },
-    {
-      "Key": "feintAttackFast",
-      "Value": "FeintAttackFast"
-    },
-    {
-      "Key": "steelWingFast",
-      "Value": "SteelWingFast"
-    },
-    {
-      "Key": "fireFangFast",
-      "Value": "FireFangFast"
-    },
-    {
-      "Key": "rockSmashFast",
-      "Value": "RockSmashFast"
     }
   ]
 }
